@@ -1,0 +1,30 @@
+{
+  "name": "lsxpms",
+  "version": "1.0.0",
+  "description": "Longshan County Performance Management System",
+  "main": "page/index.html",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5",
+    "gulp-livereload": "^3.8.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-less": "^3.0.5",
+    "gulp-livereload": "^3.8.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugknightyyp/lsxpms.git"
+  },
+  "author": "bugknightyyp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bugknightyyp/lsxpms/issues"
+  },
+  "homepage": "https://github.com/bugknightyyp/lsxpms#readme"
+}

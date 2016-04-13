@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  min-height: 100%;
+  font-size: 14px;
+}
+body {
+  background-color: #f1f1f1;
+  min-height: 100%;
+}
+.layout-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+.header-container {
+  background-color: #0859ae;
+  color: #fff;
+  padding: 20px 0;
+}
+.header-container .log-wrap {
+  float: left;
+  padding-top: 25px;
+}
+.header-container .log-wrap .logo {
+  float: left;
+}
+.header-container .log-wrap .site-name {
+  float: left;
+  font-size: 26px;
+  margin-left: 50px;
+}
+.header-container .user-info-wrap {
+  float: right;
+}
+.header-container .user-info-wrap > * {
+  float: left;
+}
+.header-container .user-info-wrap .avatar-wrap {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #5a8bbe;
+  box-shadow: 0 0 20px -3px #000;
+}
+.header-container .user-info-wrap .avatar-wrap img {
+  width: 100%;
+  height: 100%;
+}
+.header-container .user-info-wrap .adjust-wrap {
+  padding-top: 30px;
+}
+.header-container .user-info-wrap .adjust-wrap > * {
+  float: left;
+}
+.header-container .user-info-wrap .name-warp {
+  margin-left: 20px;
+}
+.header-container .user-info-wrap .email-wrap {
+  padding: 0 0 0 10px;
+}
+.header-container .user-info-wrap .email-wrap img {
+  display: block;
+}
+.header-container .user-info-wrap .seperate-line {
+  padding: 0 15px;
+}
+.footer-container {
+  background-color: #0859ae;
+  margin-top: 10px;
+}
+.footer-container .copy-right {
+  line-height: 100px;
+  color: #fff;
+}
