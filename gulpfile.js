@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var gutil = require('gulp-util');
 var less = require('gulp-less');
 var path = require('path');
 //https://scotch.io/tutorials/a-quick-guide-to-using-livereload-with-gulp
@@ -13,10 +14,11 @@ var reloadConfig = {
 gulp.task('less', function () {
   return gulp.src('./less/main.less')  //gulp.src('./less/**/*.less')
     .pipe(less({
-      paths: [ path.join(__dirname, 'less') ]
+      paths: [ path.join(__dirname, 'less'), path.join(__dirname, 'less', 'module') ]
     }))
     .on('error', function (err) {
-                this.emit('end');
+      gutil.log(err);
+      this.emit('end');
     })
     .pipe(autoprefixer({
       browsers: [
@@ -35,8 +37,8 @@ gulp.task('less', function () {
     .pipe(gulp.dest('./css')) //autoprefixer()
     .pipe(livereload())
     .on('error', function (err) {
-                //gutil.log(err);
-                this.emit('end');
+      gutil.log(err);
+      this.emit('end');
     })
 });
 gulp.task('html', function () {

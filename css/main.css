@@ -9,6 +9,19 @@ html {
 body {
   background-color: #f1f1f1;
   min-height: 100%;
+  color: #999;
+  font-family: "Microsoft Yahei";
+}
+ul,
+li {
+  list-style: none;
+}
+.body-container {
+  padding-top: 10px;
+}
+.main-container {
+  width: 990px;
+  float: right;
 }
 .layout-container {
   width: 1200px;
@@ -21,6 +34,9 @@ body {
   display: block;
   height: 0;
   clear: both;
+}
+.arial {
+  font-family: arial;
 }
 .header-container {
   background-color: #0859ae;
@@ -82,4 +98,139 @@ body {
 .footer-container .copy-right {
   line-height: 100px;
   color: #fff;
+}
+.tree-menu-container {
+  width: 200px;
+  background-color: #0859ae;
+  float: left;
+}
+.tree-menu-container .date-time {
+  background-color: #20b4c8;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 52px;
+}
+.tree-menu-container .date-time .week {
+  padding-top: 48px;
+  font-size: 18px;
+}
+.tree-menu-container .date-time .time {
+  font-size: 46px;
+  padding-top: 26px;
+}
+.tree-menu-container .date-time .date {
+  font-size: 22px;
+  padding-top: 26px;
+}
+.tree-menu-container .tree-menu {
+  font-size: 16px;
+  min-height: 600px;
+}
+.tree-menu-container .tree-menu > li > * {
+  display: none;
+}
+.tree-menu-container .tree-menu > li.open > * {
+  display: block;
+}
+.tree-menu-container .tree-menu > li.open i {
+  background-position: 0 0;
+}
+.tree-menu-container .tree-menu .item {
+  border-bottom: 1px solid #256db8;
+  padding: 20px 0;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  display: block;
+  color: #fff;
+}
+.tree-menu-container .tree-menu .item span {
+  float: left;
+  padding-left: 15px;
+  height: 25px;
+  width: 25px;
+}
+.tree-menu-container .tree-menu .item span img {
+  display: block;
+}
+.tree-menu-container .tree-menu .item em {
+  float: left;
+  font-style: normal;
+  padding: 3px 0 0 15px;
+}
+.tree-menu-container .tree-menu .item i {
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+  font-style: normal;
+  width: 13px;
+  height: 7px;
+  background-image: url(/media/img/icon-arrow.png);
+  background-position: 0 -7px;
+}
+.tree-menu-container .tree-menu .item.on {
+  background-image: url(/media/img/rep-tree.png);
+  background-position: left center;
+  border-bottom: 0;
+  margin-top: -1px;
+}
+.bread-nav-container {
+  padding: 15px 5px;
+  width: 100%;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  background-color: #fff;
+  overflow: hidden;
+}
+.bread-nav-container li {
+  float: left;
+  color: #0859ae;
+  padding-left: 10px;
+}
+.index-container {
+  margin-top: 10px;
+  background-color: #fff;
+}
+.shortcut-entry {
+  padding: 20px;
+}
+.shortcut-entry a {
+  float: left;
+  width: 33.33%;
+  border: 1px solid #dddddd;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  margin-right: -1px;
+  padding: 30px 0;
+  background-color: #f1f1f1;
+  color: #999;
+}
+.shortcut-entry .adjust-wrap {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+.shortcut-entry .content-wrap {
+  margin-left: -50%;
+  position: relative;
+}
+.shortcut-entry .bg-wrap {
+  width: 42px;
+  height: 38px;
+  background-image: url(/media/img/icon-clock.png);
+  float: left;
+}
+.shortcut-entry .entry-name {
+  float: left;
+  font-size: 20px;
+  margin: 4px 0 0  20px;
+}
+.shortcut-entry .num-wrap {
+  font-family: arial;
+  background-color: #f20505;
+  float: left;
+  color: #fff;
+  border-radius: 4px;
+  padding: 1px 3px;
+  font-size: 10px;
+  margin: -10px 0 0 8px;
 }

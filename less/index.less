@@ -1,1 +1,51 @@
 @import "variables.less";
+
+.index-container{
+  margin-top: 10px;
+  background-color: #fff;
+}
+.shortcut-entry{
+  padding: 20px;
+  a{
+    float: left;
+    width: 33.33%;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    margin-right: -1px;
+    padding: 30px 0;
+    background-color: #f1f1f1;
+    color: #999;
+
+  }
+  .adjust-wrap{
+    float: left;
+    position: relative;
+    left: 50%;
+  }
+  .content-wrap{
+    margin-left: -50%;
+    position: relative;
+  }
+  .bg-wrap{
+    width: 42px;
+    height: 38px;
+    background-image: ~"url(@{img-url}/icon-clock.png)";
+    float: left;
+  }
+  .entry-name{
+    float: left;
+    font-size: 20px;
+    margin: 4px 0 0  20px;
+
+  }
+  .num-wrap{
+    font-family: arial;
+    background-color: #f20505;
+    float: left;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1px 3px;
+    font-size: 10px;
+    margin: -10px 0 0 8px;
+  }
+}

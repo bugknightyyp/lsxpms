@@ -11,8 +11,27 @@ html{
 body{
   background-color: #f1f1f1;
   min-height: 100%;
+  color: @font-color;
+  font-family: "Microsoft Yahei";
 }
+ul, li{
+  list-style: none;
+}
+a{
+
+}
+
+.body-container{
+  padding-top: 10px;
+}
+.main-container{
+  width: (@page-width - @tree-menu-width - 10);
+  float: right;
+}
+
 @import "common.less";
-@import "index.less";
 @import "header.less";
 @import "footer.less";
+@import "tree-menu.less";
+@import "bread-nav.less";
+@import "index.less";
