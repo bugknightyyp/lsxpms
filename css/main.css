@@ -164,11 +164,11 @@ li {
   font-style: normal;
   width: 13px;
   height: 7px;
-  background-image: url(/media/img/icon-arrow.png);
+  background-image: url(../media/img/icon-arrow.png);
   background-position: 0 -7px;
 }
 .tree-menu-container .tree-menu .item.on {
-  background-image: url(/media/img/rep-tree.png);
+  background-image: url(../media/img/rep-tree.png);
   background-position: left center;
   border-bottom: 0;
   margin-top: -1px;
@@ -216,7 +216,7 @@ li {
 .shortcut-entry .bg-wrap {
   width: 42px;
   height: 38px;
-  background-image: url(/media/img/icon-clock.png);
+  background-image: url(../media/img/icon-clock.png);
   float: left;
 }
 .shortcut-entry .entry-name {
