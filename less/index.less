@@ -49,3 +49,40 @@
     margin: -10px 0 0 8px;
   }
 }
+
+.notify-container{
+  padding: 20px;
+  h2{
+    color: @base-color;
+    font-weight: normal;
+    font-size: 18px;
+    > span{
+      float: left;
+    }
+  }
+  .icon-notify{
+    margin-top: 2px;
+    width: 18px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: ~"url(@{img-url}/icon-notify.png)";
+  }
+  .notify-list{
+    li{
+      overflow: hidden;
+      margin-top: 30px;
+    }
+    a{
+      float: left;
+      color: @font-color;
+      text-decoration: none;
+      max-width: 80%;
+      line-height: 16px;
+      overflow: hidden;
+      height: 16px;
+    }
+    .time-wrap{
+      float: right;
+    }
+  }
+}

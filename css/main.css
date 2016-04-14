@@ -234,3 +234,37 @@ li {
   font-size: 10px;
   margin: -10px 0 0 8px;
 }
+.notify-container {
+  padding: 20px;
+}
+.notify-container h2 {
+  color: #0859ae;
+  font-weight: normal;
+  font-size: 18px;
+}
+.notify-container h2 > span {
+  float: left;
+}
+.notify-container .icon-notify {
+  margin-top: 2px;
+  width: 18px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url(../media/img/icon-notify.png);
+}
+.notify-container .notify-list li {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.notify-container .notify-list a {
+  float: left;
+  color: #999;
+  text-decoration: none;
+  max-width: 80%;
+  line-height: 16px;
+  overflow: hidden;
+  height: 16px;
+}
+.notify-container .notify-list .time-wrap {
+  float: right;
+}
